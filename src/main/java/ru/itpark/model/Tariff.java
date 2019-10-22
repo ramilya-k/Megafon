@@ -6,15 +6,15 @@ public class Tariff {
     private int subscriptionFee;
     private String territoryOfAction;
     private String features;
-    private String additionalInfo;
+    private String details;
 
-    public Tariff(long id, String name, int subscriptionFee, String territoryOfAction, String features, String additionalInfo) {
+    public Tariff(long id, String name, int subscriptionFee, String territoryOfAction, String features, String details) {
         this.id = id;
         this.name = name;
         this.subscriptionFee = subscriptionFee;
         this.territoryOfAction = territoryOfAction;
         this.features = features;
-        this.additionalInfo = additionalInfo;
+        this.details = details;
     }
 
     public long getId() {
@@ -57,11 +57,11 @@ public class Tariff {
         this.features = features;
     }
 
-    public String getAdditionalInfo() {
-        return additionalInfo;
+    public String getDetails() {
+        return details;
     }
 
-    public void setAdditionalInfo(String additionalInfo) {
-        this.additionalInfo = additionalInfo;
+    public void setDetails(String details) {
+        this.details = details;
     }
 }
