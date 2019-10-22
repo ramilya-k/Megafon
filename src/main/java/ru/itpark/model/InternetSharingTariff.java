@@ -1,9 +1,9 @@
 package ru.itpark.model;
 
-public class InternetSharing extends Tariff {
+public class InternetSharingTariff extends Tariff {
     private boolean unlimitedInternet;
 
-    public InternetSharing(long id, String name, int subscriptionFee, String territoryOfAction, String features, String additionalInfo, boolean unlimitedInternet) {
+    public InternetSharingTariff(long id, String name, int subscriptionFee, String territoryOfAction, String features, String additionalInfo, boolean unlimitedInternet) {
         super(id, name, subscriptionFee, territoryOfAction, features, additionalInfo);
         this.unlimitedInternet = unlimitedInternet;
     }
